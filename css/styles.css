@@ -94,6 +94,10 @@ li {
     border-top: 1px solid #c0c0c0;
     padding: 10px;
 }
+li>a.tappable-active {
+    color: #fff;
+    background-color: #4286f5;
+}
 
 ul {
     margin: 0;
@@ -167,6 +171,15 @@ li>a * {
 	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#dfdfdf', endColorstr='#ededed');
 	background-color:#dfdfdf;
 
+}
+.scroll {
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+    position: absolute;
+    top: 84px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
 }
 
 h1 {
